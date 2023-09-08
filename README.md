@@ -26,7 +26,7 @@ git clone git@github.com:Brunno-costa27/valorant.git
  2 - Navegue até a pasta do projeto:
 
  ```bash
- cd desafio-07-valorant-agent-showcase
+ cd valorant
  ```
 3 - Instale as dependências:
 
