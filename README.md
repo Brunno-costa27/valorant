@@ -20,5 +20,22 @@ Para rodar o projeto localmente, siga os passos abaixo:
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/desafio-07-valorant-agent-showcase.git
+git clone git@github.com:Brunno-costa27/valorant.git
+ ```
 
+ 2 - Navegue até a pasta do projeto:
+
+ ```bash
+ cd desafio-07-valorant-agent-showcase
+ ```
+3 - Instale as dependências:
+
+```bash
+npm install
+```
+
+4 - Iniciar o servidor de desenvolvimento:
+
+```bash
+npm start
+```
