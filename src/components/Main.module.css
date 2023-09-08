@@ -1,0 +1,103 @@
+
+.main {
+    margin-top: 80px;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.content {
+    position: relative;
+    z-index: 100;
+    margin: 0px auto;
+    padding: 8rem 4rem 4rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 1.8rem;
+}
+
+.title span {
+    color: var(--white);
+    font-family: Roboto, sans-serif;
+    font-size: 1.7rem;
+    list-style: 1.4;
+}
+
+.nameContent {
+    width: 100%;
+    height: 100%;
+    max-width: 60rem;
+}
+
+.jogueGratis {
+    cursor: pointer;
+    border: none;
+    font-family: Roboto, sans-serif;
+    text-transform: uppercase;
+    background: var(--red);
+    color: var(--white);
+    padding: 1.9rem 3rem;
+    font-weight: 700;
+    width: 25rem;
+    transition: all 200ms ease-in-out;
+}
+
+.jogueGratis:hover {
+    background:  var(--dark);
+}
+
+
+@media (min-width: 1024px) {
+    .main {
+        height: calc(100vh - 80px);
+    }
+}
+
+@media (min-width: 1024px) {
+    .video {
+        height: calc(100vh - 80px);
+    }
+}
+
+@media (min-width: 1024px) {
+    .content {
+        justify-content: center;
+        gap: 5rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    .title {
+        flex-direction: column;
+        gap: 3rem;
+    }
+}
+
+@media (min-width: 1024px){
+    .jogueGratis {
+        font-size: 1.4rem;
+    }
+}
